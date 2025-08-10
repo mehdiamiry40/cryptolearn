@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoLearn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CryptoLearn</h1>
+        <nav>
+            <button class="tab-button" data-target="beginner">Beginner</button>
+            <button class="tab-button" data-target="intermediate">Intermediate</button>
+            <button class="tab-button" data-target="advanced">Advanced</button>
+        </nav>
+    </header>
+    <main>
+        <section id="beginner" class="tab-content active">
+            <h2>Beginner Level</h2>
+            <p>Welcome to the world of cryptocurrency! Here you'll learn the basics: what crypto is, how wallets work, and how to keep your assets secure.</p>
+            <ul>
+                <li><strong>What is Crypto?</strong> A decentralized digital currency secured by cryptography.</li>
+                <li><strong>Wallets:</strong> Tools to store and manage your cryptocurrencies.</li>
+                <li><strong>Security:</strong> Always enable two-factor authentication and keep private keys safe.</li>
+            </ul>
+        </section>
+
+        <section id="intermediate" class="tab-content">
+            <h2>Intermediate Level</h2>
+            <p>Dive deeper into how blockchains operate, consensus mechanisms, and smart contracts.</p>
+            <ul>
+                <li><strong>Consensus:</strong> Learn about proof-of-work and proof-of-stake.</li>
+                <li><strong>Smart Contracts:</strong> Programs that run on the blockchain to automate agreements.</li>
+                <li><strong>DeFi:</strong> Explore decentralized finance applications.</li>
+            </ul>
+        </section>
+
+        <section id="advanced" class="tab-content">
+            <h2>Advanced Level</h2>
+            <p>Analyze crypto markets with real-time data.</p>
+            <canvas id="priceChart" width="400" height="200"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>Learn, explore, and stay safe in the crypto space.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
