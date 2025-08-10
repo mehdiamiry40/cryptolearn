@@ -1,0 +1,11 @@
+{
+  "name": "cryptolearn",
+  "version": "1.0.0",
+  "description": "Simple web app to learn about cryptocurrency",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo 'No tests specified'"
+  },
+  "author": "",
+  "license": "MIT"
+}
